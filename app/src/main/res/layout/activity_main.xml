@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <com.fly.flytabview.FlyTabsIndicator
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true">
+
+        <com.fly.flytabview.FlyTabView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="6dp"
+            android:paddingBottom="5dp"
+            app:paddingTexwithIcon="5dp"
+            app:tabIconNormal="@mipmap/icon_unhome"
+            app:tabIconSelected="@mipmap/icon_home"
+            app:tabText="HOME"
+            app:tabTextSize="11dp"
+            app:textColorNormal="@color/black"
+            app:textColorSelected="@color/white" />
+
+        <com.fly.flytabview.FlyTabView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="6dp"
+            android:paddingBottom="5dp"
+            app:paddingTexwithIcon="5dp"
+            app:tabIconNormal="@mipmap/icon_unme"
+            app:tabIconSelected="@mipmap/icon_me"
+            app:tabText="MY"
+            app:tabTextSize="11dp"
+            app:textColorNormal="@color/black"
+            app:textColorSelected="@color/white" />
+
+    </com.fly.flytabview.FlyTabsIndicator>
+
+
+</RelativeLayout>
