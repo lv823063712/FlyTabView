@@ -1,3 +1,4 @@
+	#使用方式
 	
 
 	allprojects {
